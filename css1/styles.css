@@ -2,11 +2,16 @@
   background-image: url(/imgs/h_img.jpg);
   text-align: center;
   color: whitesmoke;
-  font-size: 30px;
+  
 }
 .services{
   background-image: url(/imgs/s_image.jpg);
   text-align: center;
   color: whitesmoke;
   padding: 50px;
+}
+.logo{
+  size: 15px;
+  padding-top: 300px;
+  /* padding-bottom: 275px; */
 }
