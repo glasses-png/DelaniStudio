@@ -17,5 +17,20 @@
 }
 .contact{
   background-image: url(/imgs/c_image.jpg);
-  padding: 100px;
+  padding: 50px;
+  color: antiquewhite;
+  text-align: center;
+}
+#mcembedsignup{
+  background:auto;
+  clear:left;
+  font:14px;
+  font-family: Helvetica,Arial,sans-serif;
+}
+body{
+  overflow-x: hidden;
+}
+.container{
+  align-items: center;
+
 }
