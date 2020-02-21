@@ -15,3 +15,7 @@
   padding-top: 300px;
   /* padding-bottom: 275px; */
 }
+.contact{
+  background-image: url(/imgs/c_image.jpg);
+  padding: 100px;
+}
