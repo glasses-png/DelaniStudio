@@ -1,11 +1,11 @@
 .home{
-  background-image: url(/assets/backgrounds/h_img.jpg);
+  background-image: url(imgs/h_img.jpg);
   text-align: center;
   color: whitesmoke;
   
 }
 .services{
-  background-image: url(/assets/backgrounds/s_image.jpg);
+  background-image: url(imgs/s_image.jpg);
   text-align: center;
   color: whitesmoke;
   padding: 50px;
@@ -16,7 +16,7 @@
   /* padding-bottom: 275px; */
 }
 .contact{
-  background-image: url(/assets/backgrounds/c_image.jpg);
+  background-image: url(imgs/c_image.jpg);
   padding: 50px;
   color: antiquewhite;
   text-align: center;
