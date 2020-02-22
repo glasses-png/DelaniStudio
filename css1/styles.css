@@ -9,6 +9,7 @@
   text-align: center;
   color: whitesmoke;
   padding: 50px;
+
 }
 .logo{
   size: 15px;
@@ -36,4 +37,10 @@ body{
 }
 .container>h1{
   text-align: center;
+}
+.services h1{
+  font-family: 'Berkshire Swash', ;
+}
+#about>p{
+  font-family: 'Berkshire Swash', ;
 }
