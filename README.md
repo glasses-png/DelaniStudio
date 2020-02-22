@@ -1,7 +1,7 @@
-# {Application Name}
+# Application Name
 DELANI STUDIO
 
-#### {Brief description of application}
+#### Brief description of application
 Delani studio project is a site built to implement the concepts learnt e.g jQuery, Javascript and bootstrap.
 
 ## Author
