@@ -1,7 +1,7 @@
 .home{
   background-image: url(/imgs/h_img.jpg);
   text-align: center;
-  color: whitesmoke;
+  color: blanchedalmond;
   
 }
 .services{
@@ -14,7 +14,7 @@
 .logo{
   size: 15px;
   padding-top: 300px;
-  /* padding-bottom: 275px; */
+  padding-bottom: 100px;
 }
 .contact{
   background-image: url(/imgs/c_image.jpg);
