@@ -44,3 +44,28 @@ body{
 #about>p{
   font-family: 'Berkshire Swash', ;
 }
+.image{
+  opacity: 1;
+  display: block;
+  transition: 3s ease;
+  backface-visibility: hidden;
+}
+.middle{
+  transition: 3s ease;
+  opacity: 0;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.container:hover .image{
+  opacity: 0.3;
+}
+.container:hover .middle{
+  opacity: 1;
+}
+.text{
+  background-color: purple;
+  color: white;
+  font-size: 15px;
+  padding: 10px 30px;
+  text-align: center;
+}
