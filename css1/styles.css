@@ -8,7 +8,7 @@
   background-image: url("../imgs/s_image.jpg");
   text-align: center;
   color: whitesmoke;
-  padding: 50px;
+  padding: 100px;
 
 }
 
@@ -27,7 +27,6 @@
   background-image: url("../imgs/c_image.jpg");
   color: antiquewhite;
   text-align: center;
-  margin-left: 100px;
 }
 
 #mcembedsignup {
@@ -39,7 +38,11 @@
 }
 .button{
   padding-bottom: 20px;
-  text-align: end;
+  text-align: center;
+  color: antiquewhite;
+}
+.form {
+  padding-left: 70px;
 }
 .row{
   position: relative;
@@ -63,8 +66,9 @@ body {
   text-align: center;
 }
 
-/* .social{
-  padding-top: 50px; */
+.social{
+  padding-top: 10px;
+}
 
 
 
