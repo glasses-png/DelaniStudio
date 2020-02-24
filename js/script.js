@@ -37,11 +37,20 @@ $(document).ready(function() {
     $("#design3").hide();
   });
 });
-$(document).ready(function() {
-  $("form").submit(function(event) {
-    var name = $("input#name").val();
-    alert("Hello " + name + " Thank you for reaching out to us");
-
-    event.preventDefault();
-  });
-});
+function myFunction(){
+  var name =document.getElementById("name").value;
+  var email =document.getElementById("email").value;
+  var text =document.getElementById("text").value;
+  if(name==""|| email==""||text==""){
+    alert("enter your name, email and your message")
+  }
+  else alert(name+" Thank you for reaching out to us")
+}
+// $(document).ready(function(){
+//   $("#text").click(function(){
+//     $(".image").hide();
+//   });
+//   $("#text").click(function(){
+//     $(".image").show()
+//   });
+// });
