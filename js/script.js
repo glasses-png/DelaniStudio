@@ -46,11 +46,11 @@ function myFunction(){
   }
   else alert(name+" Thank you for reaching out to us")
 }
-$(document).ready(function(){
-  $("#text").click(function(){
-    $(".image").hide();
-  });
-  $("#text").click(function(){
-    $(".image").show()
-  });
-});
+// $(document).ready(function(){
+//   $("#text").click(function(){
+//     $(".image").hide();
+//   });
+//   $("#text").click(function(){
+//     $(".image").show()
+//   });
+// });
