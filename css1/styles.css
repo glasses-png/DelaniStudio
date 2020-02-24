@@ -1,59 +1,79 @@
-.home{
+.home {
   background-image: url("../imgs/h_img.jpg");
   text-align: center;
   color: whitesmoke;
 }
-.services{
+
+.services {
   background-image: url("../imgs/s_image.jpg");
   text-align: center;
   color: whitesmoke;
   padding: 50px;
 
 }
-.logo{
+
+.logo {
   size: 15px;
   padding-top: 300px;
   padding-bottom: 20px;
 }
-.mouse{
+
+.mouse {
   padding-top: 100px;
   padding-bottom: 20px;
 }
-.contact{
+
+.contact {
   background-image: url("../imgs/c_image.jpg");
-  padding: 30px;
   color: antiquewhite;
   text-align: center;
-  /* align-items: center; */
+  margin-left: 100px;
 }
-#mcembedsignup{
-  background: auto; 
-  clear:left; 
-  font:14px;
-  font-family: Helvetica,Arial,sans-serif;;
-}
-body{
-  overflow-x: hidden;
-}
-.container>h1{
-  text-align: center;
-}
-.services h1{
-  font-family: 'Berkshire Swash', ;
-}
-#about p{
-  font-family: 'Berkshire Swash', ;
-  text-align: center;
-}
-.social{
-  padding-top: 50px;
+
+#mcembedsignup {
+  background: auto;
+  clear: left;
+  font: 14px;
+  font-family: Helvetica, Arial, sans-serif;
 
 }
-.container p{
+.button{
+  padding-bottom: 20px;
+  text-align: end;
+}
+.row{
+  position: relative;
+  display: flex;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container>h1 {
+  text-align: center;
+}
+
+.services h1 {
+  font-family: 'Berkshire Swash', ;
+}
+
+#about p {
+  font-family: 'Berkshire Swash', ;
+  text-align: center;
+}
+
+/* .social{
+  padding-top: 50px; */
+
+}
+
+.container p {
   text-align: center;
   margin-left: auto;
 }
-.image{
+
+.image {
   opacity: 1;
   display: block;
   transition: 3s ease;
@@ -61,22 +81,26 @@ body{
   width: 100%;
   height: auto;
 }
-.middle{
+
+.middle {
   transition: 3s ease;
   position: absolute;
   opacity: 0;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-.container:hover .image{
+
+.container:hover .image {
   opacity: 0.3;
 }
-.container:hover .middle{
+
+.container:hover .middle {
   opacity: 1;
 }
-.text{
+
+.text {
   background-color: purple;
   color: white;
   font-size: 15px;
