@@ -21,22 +21,19 @@
 }
 .contact{
   background-image: url("../imgs/c_image.jpg");
-  padding: 50px;
+  padding: 30px;
   color: antiquewhite;
   text-align: center;
+  /* align-items: center; */
 }
 #mcembedsignup{
-  background:auto;
-  clear:left;
+  background: auto; 
+  clear:left; 
   font:14px;
-  font-family: Helvetica,Arial,sans-serif;
+  font-family: Helvetica,Arial,sans-serif;;
 }
 body{
   overflow-x: hidden;
-}
-.container{
-  align-items: center;
-
 }
 .container>h1{
   text-align: center;
@@ -47,6 +44,10 @@ body{
 #about p{
   font-family: 'Berkshire Swash', ;
   text-align: center;
+}
+.social{
+  padding-top: 50px;
+
 }
 .container p{
   text-align: center;
