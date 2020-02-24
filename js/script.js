@@ -37,11 +37,11 @@ $(document).ready(function() {
     $("#design3").hide();
   });
 });
-$(document).ready(function() {
-  $("form").submit(function(event) {
-    var name = $("input#name").val();
-    alert("Hello " + name + " Thank you for reaching out to us");
+// $(document).ready(function() {
+//   $("form").submit(function(event) {
+//     var name = $("input#name").val();
+//     alert("Hello " + name + " Thank you for reaching out to us");
 
-    event.preventDefault();
-  });
-});
+//     event.preventDefault();
+//   });
+// });
